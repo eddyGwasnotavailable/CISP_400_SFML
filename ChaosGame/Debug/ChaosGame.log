@@ -1,0 +1,24 @@
+﻿  ChaosGame.cpp
+C:\Users\w1973758\source\repos\CISP_400_SFML\ChaosGame\code\ChaosGame.cpp(64,71): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\w1973758\source\repos\CISP_400_SFML\ChaosGame\code\ChaosGame.cpp(64,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\w1973758\source\repos\CISP_400_SFML\ChaosGame\code\ChaosGame.cpp(70,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\w1973758\source\repos\CISP_400_SFML\ChaosGame\code\ChaosGame.cpp(70,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\w1973758\source\repos\CISP_400_SFML\ChaosGame\code\ChaosGame.cpp(104,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\w1973758\source\repos\CISP_400_SFML\ChaosGame\code\ChaosGame.cpp(112,21): warning C4018: '<': signed/unsigned mismatch
+  ChaosGame.vcxproj -> C:\Users\w1973758\source\repos\CISP_400_SFML\ChaosGame\Debug\ChaosGame.exe
