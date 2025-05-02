@@ -29,11 +29,11 @@ int main()
 	instruct1.setFont(font);
 	instruct2.setFont(font);
 	
-	title.setString("Mandelbrot Set");
+	//title.setString("Mandelbrot Set");
 	//centerL.setString("Center: ");
 	//cursorL.setString("Cursor: ");
-	instruct1.setString("Left-click to Zoom in");
-	instruct2.setString("Right-click to Zoom out");
+	//instruct1.setString("Left-click to Zoom in");
+	//instruct2.setString("Right-click to Zoom out");
 
 	title.setFillColor(Color::White);
 	instruct1.setFillColor(Color::White);
