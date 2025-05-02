@@ -107,10 +107,27 @@ size_t ComplexPlane::countIterations(Vector2f coord) //honestly who knows tbh
 void ComplexPlane::iterationsToRGB(size_t count, Uint8& r, Uint8& g, Uint8& b)
 {
 	//something
+	const int range = 255;
+	if (count == MAX_ITER)
+	{
+		r = 0;
+		g = 0;
+		b = 0;
+	}
+	else if (count < range)
+	{
+		r = 30;
+		g = 40;
+		b = 80;
+	}
 }
 
 Vector2f ComplexPlane::mapPixelToCoords(Vector2i mousePixel)
 {
-	//oi
-	Vector2f wip;
+	// assuming monitor is 1080p
+	//x = [0,1920], 0 is a, 1920 is b
+	//y = [1080,0], 1080 is a, 0 is b
+	//pixel location (960,540) maps to (0,0) on complex plane
+	int pixelWidth = m_pixel_size.y;
+	int pixelHeight = m_pixel_size.x;
 }

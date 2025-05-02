@@ -57,7 +57,6 @@ int main()
 			{
 				if (event.mouseButton.button == Mouse::Left)
 				{
-					cout << "Left mB pressed" << endl;
 					//WIP zoom in
 				}
 				else if (event.mouseButton.button == Mouse::Right)
@@ -68,7 +67,7 @@ int main()
 			}
 			if (event.type == Event::MouseMoved)
 			{
-				//call setMouseLocation on the ComplexPlane obj to  store the x,y pixel location of the mouse click
+				//call setMouseLocation on the ComplexPlane obj to store the x,y pixel location of the mouse click
 			}
 			
 		}
