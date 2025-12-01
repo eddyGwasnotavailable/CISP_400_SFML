@@ -6,11 +6,11 @@
 using namespace sf;
 using namespace std;
 
-const unsigned int MAX_ITER = 64;
+const unsigned int MAX_ITER = 64;// should be 64 but for now to lower compute time it will be lower
 const float BASE_WIDTH = 4.0;
 const float BASE_HEIGHT = 4.0;
 const float BASE_ZOOM = 0.5;
-enum State{CALCULATING, DISPLAYING};
+enum State { CALCULATING, DISPLAYING };
 
 class ComplexPlane : public Drawable {
 private:
